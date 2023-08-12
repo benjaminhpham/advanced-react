@@ -1,0 +1,15 @@
+.TodoList {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.TodoList div {
+  background-color: lightskyblue;
+}
+
+.TodoList div:last-of-type {
+  grid-column: span 3;
+}

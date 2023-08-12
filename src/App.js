@@ -1,5 +1,6 @@
 import "./App.css";
 import App10 from "./lessons/lesson-10/App10";
+import App11 from "./lessons/lesson-11/App11";
 import App2 from "./lessons/lesson-2/App2";
 import App3 from "./lessons/lesson-3/App3";
 import App4 from "./lessons/lesson-4/App4";
@@ -9,15 +10,16 @@ import App8 from "./lessons/lesson-8/App8";
 
 function App() {
   return (
-    <>
+    <div className="App">
       {/* <App2 /> */}
       {/* <App3 /> */}
       {/* <App4 /> */}
       {/* <App5 /> */}
       {/* <App7 /> */}
       {/* <App8 /> */}
-      <App10 />
-    </>
+      {/* <App10 /> */}
+      <App11 />
+    </div>
   );
 }
 
